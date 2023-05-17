@@ -17,7 +17,7 @@ DRF를 이용한 커뮤니티 사이트
 - 팀원😄3 : <a href="http://allitail.tistory.com/">원윤희</a> - 게시글 등록, 조회, 수정, 삭제, 좋아요
 - 팀원😄4 : <a href="https://woongpang.tistory.com/">이기웅</a> - 댓글 등록, 조회, 수정, 삭제
 
-## 🔑 프로젝트 설치 및 실행 방법
+### 🔑 프로젝트 설치 및 실행 방법
 #### 깃허브 클론하기
 - git init
 - git clone git@github.com:goodminjeong/AI-5_A4_DUTO_Frontend.git
