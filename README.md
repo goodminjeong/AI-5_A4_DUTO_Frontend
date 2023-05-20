@@ -48,6 +48,7 @@ DRF를 이용한 커뮤니티 사이트
 #### [10. 상세 페이지](#상세-페이지)
 #### [11. 댓글 작성](#댓글-작성)
 #### [12. 팔로우 기능](#팔로우-기능)
+#### [13. 좋아요 기능](#좋아요-기능)
 ------------
 #### 회원가입 
 - 주소 API 연동
@@ -110,7 +111,7 @@ DRF를 이용한 커뮤니티 사이트
 ![image](https://github.com/goodminjeong/AI-5_Todo-list/assets/125722304/80ff0d90-d799-48d7-a86e-b657e5ee474f)
 - 게시글 수정 시 원래 내용 불러오는 기능
 - 본인이 쓴 게시글만 수정, 삭제 가능
-![image](https://github.com/goodminjeong/AI-5_Todo-list/assets/125722304/1d5288e1-230e-4241-8ff1-cd3e59ebb36b)
+![image](https://github.com/goodminjeong/AI-5_Todo-list/assets/125722304/fede895f-1f6e-4911-b893-d94bb8350fa1)
 ![image](https://github.com/goodminjeong/AI-5_Todo-list/assets/125722304/4cb1563a-1e48-4588-acb4-1ba71fa3af6a)
 ![image](https://github.com/goodminjeong/AI-5_Todo-list/assets/125722304/7c9734a5-c6bd-4eb7-853c-22e719bf0a39)
 ![image](https://github.com/goodminjeong/AI-5_Todo-list/assets/125722304/9024d08c-504d-42bd-8c81-38a0d28bc0ad)
@@ -141,5 +142,14 @@ DRF를 이용한 커뮤니티 사이트
 
 #### 팔로우 기능
 - 상세페이지를 들어갔을때 작성자가 본인이면 팔로우 버튼 x, 다른 사람일 경우 팔로우 버튼이 생김
+- 해당 유저를 팔로잉 중이면 unfollow, 팔로잉 하고 있지 않으면 follow 버튼으로 보임
 ![image](https://github.com/goodminjeong/AI-5_Todo-list/assets/125722304/91753905-2a33-461d-8269-3d3aa7ea8d38)
 ![image](https://github.com/goodminjeong/AI-5_Todo-list/assets/125722304/af29338b-20dd-491f-936c-0dde27db88dc)  
+  
+#### 좋아요 기능
+- 상세페이지를 들어갔을때 로그인한 유저가 좋아요를 이미 누른 게시글이면 빨간 하트로 보이고 안 누른 상태면 빈 하트로 보임
+- 좋아요 클릭 시 새로고침 하지 않아도 바로 하트 색깔과 좋아요 개수가 바뀜
+![image](https://github.com/goodminjeong/AI-5_Todo-list/assets/125722304/42915548-0d83-4687-87ec-318426a4b2c1)
+![image](https://github.com/goodminjeong/AI-5_Todo-list/assets/125722304/85abb5d2-bc17-40c6-b80b-aa5ca8d487e3)
+![image](https://github.com/goodminjeong/AI-5_Todo-list/assets/125722304/a67c87cb-d013-4963-ad48-f2958b2c9790)
+![image](https://github.com/goodminjeong/AI-5_Todo-list/assets/125722304/8914c30a-c2da-41fc-b2b6-e212925988be)
